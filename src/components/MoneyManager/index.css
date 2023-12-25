@@ -1,0 +1,177 @@
+.money-manager-bg-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(243, 246, 248), rgb(168, 236, 253));
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  padding: 8%;
+}
+
+/* Welcome Section */
+
+.welcome-container-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 30px;
+  border-radius: 30px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.651) 0px 7px 29px 0px;
+}
+.user-name {
+  font-size: 33px;
+}
+.welcome-greeting {
+  font-size: medium;
+  font-weight: 500;
+}
+.app-title {
+  color: rgb(28, 30, 156);
+}
+
+.money-details-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+/* Add Transaction and History Section */
+
+.add-transaction-and-history {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .add-transaction-and-history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Add Transaction Styles */
+
+.add-transaction-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  height: 100%;
+  box-shadow: rgba(100, 100, 111, 0.651) 0px 7px 29px 0px;
+}
+@media screen and (min-width: 768px) {
+  .add-transaction-form-container {
+    margin: 10px;
+    max-width: 500px;
+  }
+}
+
+.add-transaction-heading {
+  font-size: 20px;
+}
+.label {
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.text-input {
+  padding: 10px;
+  border: none;
+  border: solid rgba(128, 128, 128, 0.596) 1px;
+  font-size: 13px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 350px;
+  padding: 10px;
+}
+.add-button {
+  background-color: rgb(5, 83, 172);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0px;
+}
+
+/* History Styles */
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.651) 0px 7px 29px 0px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .history-container {
+    margin: 10px;
+    max-width: 500px;
+  }
+}
+
+.history-heading {
+  font-size: 20px;
+}
+
+.history-card-container {
+  width: 100%;
+  border-radius: 10px;
+}
+.heading-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border: 1px gray solid;
+}
+
+.heading-row {
+  font-weight: 500;
+  text-align: center;
+  width: 30%;
+  color: rgb(90, 90, 90);
+}
+.heading-row-diff {
+  font-weight: 500;
+  width: 40%;
+  color: rgb(90, 90, 90);
+}
+
+.history-items-container {
+  padding: 0px;
+  border: 1px gray solid;
+  border-top: none;
+  margin: 0;
+}
+
+.no-history-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  border: 1px solid gray;
+  border-top: none;
+}
+
+.no-history {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}

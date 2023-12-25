@@ -1,0 +1,32 @@
+.history-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+.history-row-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.history-row {
+  width: 30%;
+  text-align: center;
+  color: gray;
+}
+
+.delete-icon-button {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.delete-icon {
+  height: 20px;
+}
